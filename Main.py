@@ -19,7 +19,7 @@ def main ():
  Main_window = Tk()
  Main_window.title('Home Screen')
  Main_window.geometry("500x500")
- button_1 = Button(Main_window, command=setup, text='Settings', font=(14))
+ button_1 = Button(Main_window, command=settings, text='Settings', font=(14))
  button_1.grid(row=5, column=1, padx=80, pady=10, sticky=W)
  button_2 = Button(Main_window, text='Run', font=(14))
  button_2.grid(row=5, column=0, padx=80, pady=10, sticky=W)
